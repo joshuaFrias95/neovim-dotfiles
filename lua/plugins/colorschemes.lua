@@ -3,6 +3,7 @@ return {
   "sainnhe/everforest",
   "ellisonleao/gruvbox.nvim",
   "rebelot/kanagawa.nvim",
+  "Shadorain/shadotheme",
   {
     "EdenEast/nightfox.nvim",
     name = "nightfox",
@@ -17,7 +18,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "eva01-LCL",
+      colorscheme = "shado",
     },
   },
 }
