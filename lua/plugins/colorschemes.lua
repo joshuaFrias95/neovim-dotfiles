@@ -4,6 +4,7 @@ return {
   "ellisonleao/gruvbox.nvim",
   "rebelot/kanagawa.nvim",
   "Shadorain/shadotheme",
+  "danilo-augusto/vim-afterglow",
   {
     "EdenEast/nightfox.nvim",
     name = "nightfox",
