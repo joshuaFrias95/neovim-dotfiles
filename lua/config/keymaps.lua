@@ -1,3 +1,8 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+local mapkey = require("util.keymapper").mapkey
+local opts = { noremap = true, silent = true }
+
+-- Tmux navigator
+mapkey("<C-h>", "TmuxNavigateLeft", "n") -- Navigate Left
+mapkey("<C-j>", "TmuxNavigateDown", "n") -- Navigate Down
+mapkey("<C-k>", "TmuxNavigateUp", "n") -- Navigate Up
+mapkey("<C-l>", "TmuxNavigateRight", "n") -- Navigate Right
